@@ -54,7 +54,7 @@ variable "public_key_path" {
 resource "aws_key_pair" "hashicorp-training" {
   # This is the name of the keypair. This will show up in the Amazon console
   # and API output as this "key" (since ssh-rsa AAA... is not descriptive).
-  key_name = "hashicorp-training"
+  key_name = "hashicorp-training-removeme"
 
   # We could hard-code a public key here, as shown below:
   # public_key = "ssh-rsa AAAAB3..."
