@@ -2,7 +2,7 @@
 # to use. We declare this as a variable so we can access it other places in
 # our Terraform configuration since many resources in AWS are region-specific.
 variable "aws_region" {
-  default = "us-east-1"
+  default = "us-west-1"
 }
 
 # These values come from your AWS credentials.
